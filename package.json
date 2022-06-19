@@ -1,6 +1,6 @@
 {
   "name": "@ct-note/main",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A clone from Editor.js — Native JS, based on API and Open Source",
   "main": "dist/editor.js",
   "types": "./types/index.d.ts",
@@ -36,7 +36,10 @@
   },
   "author": "CodeX",
   "license": "Apache-2.0",
-  "repository": "https://github.com/ChesterChuTw/editor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChesterChuTw/editor.js.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
